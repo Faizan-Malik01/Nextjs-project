@@ -27,7 +27,7 @@ const SkillsSection = () => {
     whileInView: { opacity: 1, y: 0 },
     viewport: { once: false, amount: 0.1 },
     transition: { duration: 0.8, ease: "easeOut" }
-  };
+  } as const;
 
   return (
     <section className="py-24 bg-white overflow-hidden relative min-h-[800px]">
