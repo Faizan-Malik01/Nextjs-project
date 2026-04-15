@@ -95,11 +95,11 @@ const SkillsSection = () => {
                     {/* Course Image */}
                     <div className="relative h-64 w-full bg-gray-50 flex flex-col items-center">
                         <div className="absolute top-4 z-20">
-                           <Image src="/logo.png" width={80} height={30} alt="logo" className="object-contain" />
+                        
                         </div>
                         <div className="w-full h-full p-4">
                            <div className="relative w-full h-full rounded-xl overflow-hidden shadow-sm">
-                             <Image src={course.image} alt={course.title} fill className="object-cover" />
+                             <Image src="/mysql-master.webp" alt={course.title} fill className="object-cover" />
                            </div>
                         </div>
                     </div>
