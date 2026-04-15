@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const ContactSection = () => {
   return (
-    <section className="relative w-full bg-white pt-10 pb-0 overflow-hidden min-h-[800px] flex flex-col justify-center">
+    <section className=" relative w-full bg-white pt-20 pb-0 overflow-hidden min-h-[800px] flex flex-col justify-center">
       
       {/* --- 1. THE GREEN WAVE (Top Layer relative to image) --- */}
       {/* Iska z-index 'z-20' hai taaki ye image ke UPAR rahe */}

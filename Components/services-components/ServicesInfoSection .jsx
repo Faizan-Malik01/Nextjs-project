@@ -14,7 +14,7 @@ const ServicesInfoSection = () => {
           viewport={{ once: false }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
-          <h2 className="text-3xl md:text-5xl lg:text-[54px] font-bold text-slate-900 leading-tight mb-4 px-2">
+          <h2 className=" pt-10 text-3xl md:text-5xl lg:text-[54px] font-bold text-slate-900 leading-tight mb-4 px-2">
             Services Kodyfier Future Techno Training <br className="hidden md:block" />
             Private Limited
           </h2>
